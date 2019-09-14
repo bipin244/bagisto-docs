@@ -184,7 +184,7 @@ Add \{\{ \_\_(‘helloworld::app.hello-world.name’) \}\} to your application�
 
 - Now we will add CSS to our package. To add CSS create ‘package.json’ file & ‘webpack.mix.js’ file inside the root of your package.
 
-Create a ‘Resources’ folder inside the ‘src’ folder. Inside ‘Resources’ folder creates a folder name ‘assests’& inside it create ‘sass’ folder & inside it create a folder name ‘app.scss’. This ‘app.scss’ will consist SASS for a package. In ‘package.json’ file, you can mention your npm dependencies. Create a webpack.mix.js file, this will be used for compiling our assets.
+Create a ‘Resources’ folder inside the ‘src’ folder. Inside ‘Resources’ folder creates a folder name ‘assets’& inside it create ‘sass’ folder & inside it create a folder name ‘app.scss’. This ‘app.scss’ will consist SASS for a package. In ‘package.json’ file, you can mention your npm dependencies. Create a webpack.mix.js file, this will be used for compiling our assets.
 
 ‘package.json' file consist
 
@@ -241,7 +241,7 @@ All dependency can be updated according to need.
 
 After doing this go to the root of your package & run ‘npm install’ which will install all dependencies. After installing dependencies run ‘npm run watch’, which will compile all your CSS & publish it inside public folder according to path mention in webpack.mix.js according to the environment.
 
-In the same way, we can also add images & js. Inside ‘assests’ folder of ‘Resources’, create two folders ‘js’ & ‘images’ in which create ‘app.js’ file for js & inside ‘images’ folder, download images.
+In the same way, we can also add images & js. Inside ‘assets’ folder of ‘Resources’, create two folders ‘js’ & ‘images’ in which create ‘app.js’ file for js & inside ‘images’ folder, download images.
 
 Now we need to publish these two also as we did for CSS. We will add this too to our webpack.mix.js.
 
