@@ -184,7 +184,7 @@ Add \{\{ \_\_(‘helloworld::app.hello-world.name’) \}\} to your application�
 
 - Now we will add CSS to our package. To add CSS create ‘package.json’ file & ‘webpack.mix.js’ file inside the root of your package.
 
-Create a ‘Resources’ folder inside the ‘src’ folder. Inside ‘Resources’ folder creates a folder name ‘assests’& inside it create ‘sass’ folder & inside it create a folder name ‘app.scss’. This ‘app.scss’ will consist SASS for a package. In ‘package.json’ file, you can mention your npm dependencies. Create a webpack.mix.js file, this will be used for compiling our assets.
+Create a ‘Resources’ folder inside the ‘src’ folder. Inside ‘Resources’ folder creates a folder name ‘assests’& inside it create ‘sass’ folder & inside it create a file name ‘app.scss’. This ‘app.scss’ will consist SASS for a package. In ‘package.json’ file, you can mention your npm dependencies. Create a webpack.mix.js file, this will be used for compiling our assets.
 
 ‘package.json' file consist
 
